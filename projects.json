@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Network Monitoring Dashboard",
+    "description": "A real-time dashboard for visualizing network traffic, uptime alerts, and device health across a small business LAN.",
+    "tags": ["JavaScript", "HTML/CSS", "Networking", "Charts"],
+    "category": "network",
+    "year": "2025",
+    "repo": "https://github.com/yourusername/network-dashboard",
+    "demo": "#"
+  },
+  {
+    "id": 2,
+    "title": "IT Helpdesk Ticketing App",
+    "description": "A lightweight internal ticketing system to log, assign, and track IT support requests with status updates and priority levels.",
+    "tags": ["JavaScript", "JSON", "Bootstrap", "DOM"],
+    "category": "tools",
+    "year": "2025",
+    "repo": "https://github.com/yourusername/helpdesk-app",
+    "demo": "#"
+  },
+  {
+    "id": 3,
+    "title": "Campus Events Redesign",
+    "description": "A redesign of the university's campus events page — improving navigation, filtering, and mobile accessibility.",
+    "tags": ["HTML", "CSS", "Accessibility", "UX"],
+    "category": "design",
+    "year": "2024",
+    "repo": "https://github.com/yourusername/campus-events",
+    "demo": "#"
+  },
+  {
+    "id": 4,
+    "title": "Password Strength Checker",
+    "description": "A client-side tool that analyzes password strength in real-time using regex patterns and entropy estimation.",
+    "tags": ["JavaScript", "Security", "Regex"],
+    "category": "tools",
+    "year": "2024",
+    "repo": "https://github.com/yourusername/password-checker",
+    "demo": "#"
+  }
+]
