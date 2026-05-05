@@ -6,7 +6,7 @@
     "tags": ["JavaScript", "HTML/CSS", "Networking", "Charts"],
     "category": "network",
     "year": "2025",
-    "repo": "https://github.com/yourusername/network-dashboard",
+    "repo": "https://github.com/tcbrakefield2/network-dashboard",
     "demo": "#"
   },
   {
@@ -16,7 +16,7 @@
     "tags": ["JavaScript", "JSON", "Bootstrap", "DOM"],
     "category": "tools",
     "year": "2025",
-    "repo": "https://github.com/yourusername/helpdesk-app",
+    "repo": "https://github.com/tcbrakefield2/helpdesk-app",
     "demo": "#"
   },
   {
@@ -26,7 +26,7 @@
     "tags": ["HTML", "CSS", "Accessibility", "UX"],
     "category": "design",
     "year": "2024",
-    "repo": "https://github.com/yourusername/campus-events",
+    "repo": "https://github.com/tcbrakefield2/campus-events",
     "demo": "#"
   },
   {
@@ -36,7 +36,7 @@
     "tags": ["JavaScript", "Security", "Regex"],
     "category": "tools",
     "year": "2024",
-    "repo": "https://github.com/yourusername/password-checker",
+    "repo": "https://github.com/tcbrakefield2/password-checker",
     "demo": "#"
   }
 ]
