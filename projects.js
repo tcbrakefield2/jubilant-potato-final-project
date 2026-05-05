@@ -1,18 +1,6 @@
-/* projects.js — ES module: fetch & render project cards with filter */
-
-/**
- * Fetches project data from JSON and renders cards into #projects-grid.
- * Supports category filtering via data-filter buttons.
- * Packages a "new project" object and logs it to console (JSON format).
- */
-
 const PROJECTS_URL = './assets/data/projects.json';
 
-/**
- * Creates HTML string for a single project card.
- * @param {Object} project
- * @returns {string} HTML markup
- */
+
 function createProjectCard(project) {
   const tags = project.tags
     .map(t => `<span class="tag">${t}</span>`)
@@ -40,10 +28,6 @@ function createProjectCard(project) {
   `;
 }
 
-/**
- * Filters displayed project cards by category.
- * @param {string} category - 'all' or specific category string
- */
 function filterProjects(category) {
   const cards = document.querySelectorAll('#projects-grid [data-category]');
   cards.forEach(card => {
@@ -51,22 +35,16 @@ function filterProjects(category) {
     card.style.display = show ? '' : 'none';
   });
 
-  // Update active filter button
   document.querySelectorAll('[data-filter]').forEach(btn => {
     btn.classList.toggle('btn-primary', btn.dataset.filter === category);
     btn.classList.toggle('btn-outline', btn.dataset.filter !== category);
   });
 }
 
-/**
- * Packages a new project object as JSON and logs it to console.
- * Demonstrates "packaging form data" requirement.
- * @param {Object} fields
- */
 function packageNewProject(fields) {
   const project = {
     id: Date.now(),
-    title: fields.title || 'Untitled Project',
+    title: fields.title || 'Thomas Portfolio',
     description: fields.description || '',
     tags: fields.tags ? fields.tags.split(',').map(t => t.trim()) : [],
     category: fields.category || 'other',
